@@ -1,9 +1,10 @@
 import React from 'react';
+import UpdateToDoList from './ToDoList';
 
 const App = () => (
-  <div>
+  <div class="Page">
     <h2>Todo App</h2>
-
+    <UpdateToDoList />
   </div>
 );
 
