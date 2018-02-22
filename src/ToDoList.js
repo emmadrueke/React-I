@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import StrikeThrough from './StrikeThrough';
 
 class UpdateToDoList extends Component {
@@ -8,12 +7,12 @@ class UpdateToDoList extends Component {
     this.state = {
       toDo: ['nap', 'time'],
       newItem: ''
-    }
+    };
   }
 
   handleItemInput = (event) => {
     this.setState({ newItem: event.target.value });
-  }
+  };
 
   addItem = (event) => {
     event.preventDefault();
